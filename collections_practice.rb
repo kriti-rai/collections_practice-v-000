@@ -30,10 +30,18 @@ def sum_array(array)
 end
 def add_s(array)
   array.each_with_index.collect do |a,i|
+<<<<<<< HEAD
   	if i == 1
+=======
+  	if i == 1 
+>>>>>>> 247df03c5318e7d42acdf759cf12478948ce78e9
   		a << ""
   	else
   		a << "s"
 	 end
 	end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 247df03c5318e7d42acdf759cf12478948ce78e9
